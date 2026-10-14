@@ -1,6 +1,7 @@
 console.log("こんにちは");
 console.log("青柳結凪です");
 console.log("よろしくお願いします");
+
 let score1;
 let score2;
 let score3;
@@ -11,4 +12,4 @@ score2 = 123;
 score3 = score1 + score2;
 score4 = score3 * 3;
 score5 = score4 / 4;
-Math.floor(score5);
+console.log(Math.floor(score5));
