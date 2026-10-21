@@ -44,3 +44,23 @@ function splitBill(total,people){
 }
 console.log(splitBill(2500,5));
 console.log(splitBill(5000,6));
+
+
+function judgeAge(age){
+  let result;
+  if (score <= 0){
+    result = "エラー";
+  } else if (score < 18){
+    result = "未成年";
+  } else if (score >= 65){
+    result = "高齢者";
+  } else {
+    result = "成人";
+  }
+  console.log(`${age}歳は${result}です`);
+}
+
+judgeAge(-5);
+judgeAge(15);
+judgeAge(30);
+judgeAge(80);
