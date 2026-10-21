@@ -32,3 +32,14 @@ welcome2("さぶろう","チョコバナナ");
 
 welcome2();
 welcome2();
+
+
+function multiply(a,b){
+  return a * b;
+}
+console.log(multiply(3,5));
+
+function splitBill(total,people){
+  return total / people;
+}
+console.log(splitBill(2500,5));
