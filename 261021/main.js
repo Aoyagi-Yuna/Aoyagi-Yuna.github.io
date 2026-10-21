@@ -48,11 +48,11 @@ console.log(splitBill(5000,6));
 
 function judgeAge(age){
   let result;
-  if (score <= 0){
+  if (age <= 0){
     result = "エラー";
-  } else if (score < 18){
+  } else if (age < 18){
     result = "未成年";
-  } else if (score >= 65){
+  } else if (age >= 65){
     result = "高齢者";
   } else {
     result = "成人";
