@@ -40,7 +40,7 @@ function multiply(a,b){
 console.log(multiply(3,5));
 
 function splitBill(total,people){
-  return total / people;
+  return Math.ceil(total / people);
 }
 console.log(splitBill(2500,5));
 console.log(Math.ceil(2300,17));
