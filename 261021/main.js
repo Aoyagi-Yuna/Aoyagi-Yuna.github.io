@@ -43,4 +43,4 @@ function splitBill(total,people){
   return Math.ceil(total / people);
 }
 console.log(splitBill(2500,5));
-console.log(splitBill(2300,17));
+console.log(splitBill(5000,6));
