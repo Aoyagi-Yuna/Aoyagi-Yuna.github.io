@@ -12,3 +12,12 @@ console.log(typeof 123);
 
 let x;
 console.log(x);
+
+
+function greet(name){
+  console.log(name + "さん、ようこそ");
+}
+
+greet("たろう");
+greet("じろう");
+greet("さぶろう");
