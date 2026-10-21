@@ -14,10 +14,21 @@ let x;
 console.log(x);
 
 
-function greet(name){
+function welcome(name){
   console.log(name + "さん、ようこそ");
 }
 
-greet("たろう");
-greet("じろう");
-greet("さぶろう");
+welcome("たろう");
+welcome("じろう");
+welcome("さぶろう");
+
+function welcome2(name,favorite){
+  console.log(name + "さんは、" + favorite + "が好きです");
+}
+
+welcome2("たろう","チョコ");
+welcome2("じろう","バナナ");
+welcome2("さぶろう","チョコバナナ");
+
+welcome2();
+welcome2();
