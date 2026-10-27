@@ -77,7 +77,7 @@ function judgeYear(year){
   } else {
     result = "365日";
   }
-  console.log(`${year}年は{result}あります`);
+  console.log(`${year}年は${result}あります`);
 }
 
 judgeYear(1973);
