@@ -68,11 +68,11 @@ judgeAge(80);
 //発展
 function judgeYear(year){
   let result;
-  if (year % 4 === 0){
+  if (year % 400 === 0){
     result = "366日";
   } else if (year % 100 === 0){
     result = "365日";
-  } else if (year % 400 === 0){
+  } else if (year % 4 === 0){
     result = "366日";
   } else {
     result = "365日";
