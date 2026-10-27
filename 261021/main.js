@@ -64,3 +64,23 @@ judgeAge(-5);
 judgeAge(15);
 judgeAge(30);
 judgeAge(80);
+
+//発展
+function judgeYear(year){
+  let result;
+  if (year % 4 === 0){
+    result = "366日";
+  } else if (year % 100 === 0){
+    result = "365日";
+  } else if (year % 400 === 0){
+    result = "366日";
+  } else {
+    result = "365日";
+  }
+  console.log(`${year}年は{result}あります`);
+}
+
+judgeYear(1973);
+judgeYear(1936);
+judgeYear(1900);
+judgeYear(2000);
