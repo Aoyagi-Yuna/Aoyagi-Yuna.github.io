@@ -35,3 +35,10 @@ console.log(sum);
 for (let i = 5; i <= 50; i = i + 5) {
   console.log(i);
 }
+
+
+//演習3
+let favorite = ["とかげ","なとり","須田景凪","M!LK","GUMI"];
+for (let i = 0;, i < favorite.length; i++) {
+  console.log(`${i}番は${favorite[i]}`);
+}
