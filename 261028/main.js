@@ -1,3 +1,4 @@
+//演習1
 function showMessage1() {
   let title = document.querySelector("#message");
   title.textContent = "完了";
@@ -18,3 +19,9 @@ function plusCount() {
 }
 let plus = document.querySelector("#plus");
 plus.addEventListener("click",plusCount);
+
+
+//演習2
+for (let i = 0; i <= 10; i++) {
+  console.log(`{i}`);
+}
