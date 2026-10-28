@@ -42,3 +42,12 @@ let favorite = ["とかげ","なとり","須田景凪","M!LK","GUMI"];
 for (let i = 0;, i < favorite.length; i++) {
   console.log(`${i}番は${favorite[i]}`);
 }
+
+let scores = [72,85,64,90,58]
+let sum = 0;
+for (let i = 0; i < scores.length; i++) {
+  sum += scores[i];
+}
+let average = sum / scores.length;
+console.log(sum);
+console.log(average);
