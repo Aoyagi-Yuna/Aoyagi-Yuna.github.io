@@ -31,3 +31,7 @@ for (let i = 1; i <= 100; i++) {
   sum = sum + 1;
 }
 console.log(sum);
+
+for (let i = 5; i <= 50; i = i + 5) {
+  console.log(i);
+}
