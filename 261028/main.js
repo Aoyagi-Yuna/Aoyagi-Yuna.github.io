@@ -11,3 +11,10 @@ function showMessage2() {
 }
 let button2 = document.querySelector("#btn2");
 button2.addEventListener("click",showMessage2);
+
+function plusCount() {
+  let counter = document.querySelector("#counter");
+  counter.textContent = parseInt(counter.textContent) + 1;
+}
+let plus = document.querySelector("#plus");
+plus.addEventListener("click",plusCount);
