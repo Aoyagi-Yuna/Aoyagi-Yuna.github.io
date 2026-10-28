@@ -44,10 +44,10 @@ for (let i = 0; i < favorite.length; i++) {
 }
 
 let scores = [72,85,64,90,58];
-let sum = 0;
+let sum2 = 0;
 for (let i = 0; i < scores.length; i++) {
-  sum += scores[i];
+  sum2 += scores[i];
 }
-let average = sum / scores.length;
-console.log(sum);
+let average = sum2 / scores.length;
+console.log(sum2);
 console.log(average);
