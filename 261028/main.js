@@ -1,6 +1,13 @@
-function showMessage() {
+function showMessage1() {
   let title = document.querySelector("#message");
   title.textContent = "完了";
 }
-let button = document.querySelector("#btn1");
-button.addEventListener("click",showMessage);
+let button1 = document.querySelector("#btn1");
+button.addEventListener("click",showMessage1);
+
+function showMessage2() {
+  let title = document.querySelector("#message");
+  title.textContent = "流石";
+}
+let button2 = document.querySelector("#btn2");
+button.addEventListener("click",showMessage2);
