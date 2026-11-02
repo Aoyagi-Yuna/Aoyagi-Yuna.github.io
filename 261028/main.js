@@ -36,21 +36,6 @@ for (let i = 5; i <= 50; i = i + 5) {
   console.log(i);
 }
 
-//発展2
-let result;
-for (let i = 1; i <= 30; i++) {
-  if (i % 15 === 0){
-    result = "FizzBuzz";
-  } else if (i % 5 === 0){
-    result = "Buzz";
-  } else if (i % 3 === 0){
-    result = "Fizz";
-  } else {
-    result = i;
-  }
-}
-console.log(result);
-
 
 //演習3
 let favorite = ["とかげ","なとり","須田景凪","M!LK","GUMI"];
