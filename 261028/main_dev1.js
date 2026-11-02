@@ -10,5 +10,5 @@ for (let i = 1; i <= 30; i++) {
   } else {
     result = i;
   }
+  console.log(result);
 }
-console.log(result);
