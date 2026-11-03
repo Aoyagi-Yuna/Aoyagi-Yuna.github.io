@@ -1,5 +1,5 @@
 let text = ["大吉","中吉","小吉","末吉","吉"];
-let img = ["omikuji_daikichi.png","omikuji_chuukichi.png","omikuji_syoukichi.png","omikuji_suekichi.png","omikuji_kichi.png"];
+let img = ["img/omikuji_daikichi.png","img/omikuji_chuukichi.png","img/omikuji_syoukichi.png","img/omikuji_suekichi.png","img/omikuji_kichi.png"];
 
 function fortune() {
   return Math.floor(Math.random() * text.length);
