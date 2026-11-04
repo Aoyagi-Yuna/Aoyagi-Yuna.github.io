@@ -12,8 +12,8 @@ function pickUp() {
 
   title.textContent = text[n];
   picture.src = img[n];
-  picture.width = "100";
-  picture.height = "200";
+  picture.width = "200";
+  picture.height = "400";
 
   if (text[n] === "大吉") {
     title.style.color = 'red';
