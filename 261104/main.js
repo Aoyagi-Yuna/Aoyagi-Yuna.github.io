@@ -4,7 +4,8 @@ let characters = [
   {name:"しろくま", type:"雪", attack:3, emoji:"❄️"}
 ];
 
+let characterList = document.querySelector("#characterList")
 for (let i = 0; i < characters.length; i++) {
   let character = characters[i];
-  console.log(`${character.emoji}${character.name}(${character.type}) 攻撃力 ${character.attack}`);
+  characterList.innerHTML += `<li>${character.emoji}${character.name}(${character.type}) 攻撃力 ${character.attack}<li>`;
 }
