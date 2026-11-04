@@ -25,10 +25,10 @@ function pickUp() {
 let button = document.querySelector("#btn");
 button.addEventListener("click",pickUp);
 
-let clickCount = 0;
+let pickCount = 0;
 function count() {
   let counter = document.querySelector("#counter");
-  clickCount = clickCount + 1;
+  pickCount = pickCount + 1;
   counter.textContent = `引いた数：${clickCount}回`;
 }
 let plus = document.querySelector("#btn");
