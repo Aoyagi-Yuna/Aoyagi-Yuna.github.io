@@ -7,5 +7,6 @@ let characters = [
 let characterList = document.querySelector("#characterList")
 for (let i = 0; i < characters.length; i++) {
   let character = characters[i];
+  console.log(`${character.emoji}${character.name}(${character.type}) 攻撃力 ${character.attack}`);
   characterList.innerHTML += `<li>${character.emoji}${character.name}(${character.type}) 攻撃力 ${character.attack}<li>`;
-}
+};
