@@ -12,6 +12,14 @@ function pickUp() {
 
   title.textContent = text[n];
   picture.src = img[n];
+  picture.width = "100";
+  picture.height = "200";
+
+  if (text[n] === "大吉") {
+    title.style.color = 'red';
+  } else {
+    title.style.color = 'black';
+  }
 }
 
 let button = document.querySelector("#btn");
