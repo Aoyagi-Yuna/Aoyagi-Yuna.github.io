@@ -24,3 +24,10 @@ function pickUp() {
 
 let button = document.querySelector("#btn");
 button.addEventListener("click",pickUp);
+
+function count() {
+  let counter = document.querySelector("#counter");
+  counter.textContent = parseInt(counter.textContent) + 1;
+}
+let plus = document.querySelector("#btn");
+plus.addEventListener("click",count);
