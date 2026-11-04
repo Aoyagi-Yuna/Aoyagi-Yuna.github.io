@@ -29,7 +29,7 @@ let pickCount = 0;
 function count() {
   let counter = document.querySelector("#counter");
   pickCount = pickCount + 1;
-  counter.textContent = `引いた数：${clickCount}回`;
+  counter.textContent = `引いた数：${pickCount}回`;
 }
 let plus = document.querySelector("#btn");
 plus.addEventListener("click",count);
