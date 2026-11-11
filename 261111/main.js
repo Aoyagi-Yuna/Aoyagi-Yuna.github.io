@@ -37,8 +37,8 @@ for (let i = 0; i < sortedCharacters.length; i++) {
 
 
 //演習2
-characters.sort((a,b) => b.attack - a.attack);
-characters.forEach(character => console.log(character.name + "は" + character.attack));
+characters.sort((a, b) => b.attack - a.attack);
+characters.forEach(character => console.log(character.name + "の攻撃力は" + character.attack));
 
 let showByType = (type) => {
   let characterList = document.querySelector("#character-list");
@@ -51,9 +51,9 @@ let showByType = (type) => {
 };
 
 let typeTabs = document.querySelectorAll(".type-tab");
-typeTabs.forEach((tab) => {
+typeTabs.forEach(tab => {
   tab.addEventListener("click", () => {
     let type = tab.textContent;
     showByType(type);
-  });
-})
+  })
+});
