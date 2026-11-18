@@ -18,7 +18,9 @@ function render() {
     visibleCharacters.sort((a, b) => b.attack - a.attack);
   } else if (sortOrder === "attackAsc") {
     visibleCharacters.sort((a, b) => a.attack - b.attack);
-  }
+  } else if (sortOrder === "rarityLevel") {
+    visibleCharacters.sort((a, b) => b.rarity - a.rarity);
+  };
 
   let resultCount = document.querySelector("#resultCount");
   resultCount.textContent = `12体中${visibleCharacters.length}体を表示`;
