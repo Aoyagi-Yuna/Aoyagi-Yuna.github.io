@@ -23,7 +23,7 @@ function render() {
   };
 
   let resultCount = document.querySelector("#resultCount");
-  resultCount.textContent = `12体中${visibleCharacters.length}体を表示`;
+  resultCount.textContent = `${characters.length}体中${visibleCharacters.length}体を表示`;
 
   let characterList = document.querySelector("#characterList");
   characterList.innerHTML = "";
