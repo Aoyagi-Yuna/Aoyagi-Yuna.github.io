@@ -29,8 +29,12 @@ function render() {
     characterList.innerHTML = `<li>見つかりませんでした</li>`;
   } else {
     visibleCharacters.forEach((character) => {
+      let rarityStars = "";
+      for (let j = 0; j < character.rarity; j++) {
+        rarityStars += "★";
+      }
       let imageTag = `<img src="${character.image}" width="80">`;
-      characterList.innerHTML += `<li>${imageTag}${character.name} ${character.type} ／ 攻撃力 ${character.attack}</li>`;
+      characterList.innerHTML += `<li>${imageTag}${character.name} ${character.type} ／ 攻撃力 ${character.attack} ${rarityStars}</li>`;
     });
   }
 
